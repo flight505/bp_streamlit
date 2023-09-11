@@ -206,7 +206,7 @@ def app():
         dbp_data_male,
         sbp_data_female,
         dbp_data_female,
-    ) = load_bp_tables("src/blood_pressure/bp_app/app/data/bptable.csv")
+    ) = load_bp_tables("data/bptable.csv")
 
     sex = st.session_state.state["sex"]
     # Select the appropriate data based on the sex

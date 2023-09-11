@@ -6,7 +6,7 @@ class HypertensionDF:
     def __init__(self):
         # Load the BP tables only once during initialization
         self.bp_tables = pd.read_csv(
-            "src/blood_pressure/bp_app/app/data/bptable.csv"
+            "data/bptable.csv"
         )
 
     def calculate_percentile_using_zscore(self, bp_value, bp_tile):
