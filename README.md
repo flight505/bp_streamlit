@@ -2,7 +2,7 @@
 HypertensionDF Class Overview:
 ==============================
 
-The `HypertensionDF` class is designed to determine hypertension stages and percentiles based on input blood pressure data. It can process individual data points as well as entire dataframes. The class is based on established guidelines and uses a predefined blood pressure table (BPTABLES.csv).
+The `HypertensionDF` class is designed to determine hypertension stages and percentiles based on input blood pressure data. It can process individual data points as well as entire dataframes. The class is based on established guidelines and uses a predefined blood pressure table (bptable.csv).
 
 Use Cases:
 ----------
